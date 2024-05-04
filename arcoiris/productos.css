@@ -1,0 +1,1508 @@
+body{
+    overflow-x: hidden;
+    background-color:#BF7774 ;
+}
+#logo{
+    width: 5em;
+    margin-top: 2em;
+    margin-left: 0em;
+    animation-name: inicio;
+    animation-duration: 2s;
+    border-radius: 100%;
+    box-shadow: 0em 0em .5em .1em black;
+}
+
+#inicio{
+    color: white;
+    position: absolute;
+    left: 48em;
+    top: 2em;
+    list-style: none;
+    letter-spacing: .4em;
+font-size: 1.7em;
+font-family: "Josefin Slab";
+transition: all cubic-bezier(0.165, 0.84, 0.44, 1)1s;
+animation-name: inicio;
+animation-duration: 2s;
+}
+#productos{
+    color:#371A1C ;
+    position: absolute;
+    left: 57em;
+    top: 2em;
+    list-style: none;
+    font-size: 1.7em;
+    letter-spacing: .4em;
+    font-family: "Josefin Slab";
+    animation-name: inicio;
+    animation-duration: 2s;
+}
+#inicio:hover{
+    color:#371A1C  ;
+}
+
+#barra{
+    background-color:#D39D99 ;
+    width:101.3% ;
+    position: relative;
+    top: -1em;
+    left: -1em;
+    height:8em;
+}
+
+#prod{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 3em;
+    margin-bottom: -2em;
+    text-align: center;
+    letter-spacing: 1em;
+    text-shadow: 0em .5em .2em rgba(0, 0, 0, 0.48);
+    font-family: "Josefin Sans";
+    font-size: 2.2em;
+    animation-name: inicio;
+    animation-duration: 2s;
+}
+
+#fondocat{
+    background-color:  #F0DDDB;
+    position: relative;
+    top: -18.5em;
+    left: 23em;
+    height: 130em;
+    width: 60em;
+    border-radius: .5em;
+    box-shadow: 0em 0em .5em .1em rgba(255, 255, 255, 0.508);
+    margin-top: 30em;
+}
+.lista{
+    display:flex;
+    color:#371A1C;
+    list-style: circle;
+    line-height: 2.2em;
+    position: relative;
+    left: 2em;
+    top: 1em;
+    font-family: "Julius Sans One", sans-serif;
+
+}
+#fondo{
+    height: 100em;
+}
+
+/* #region 1 */
+
+#a{
+position: relative;
+left: 3em;
+top: 3.5em;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+width: 14em;
+height: 25em;
+background-color: #FBF5F5;
+border-radius: .3em;
+border-width: .1em;
+font-family: "Julius Sans One", sans-serif;
+animation-name: inicio;
+animation-duration: 2s;
+}
+
+#img1{
+    width: 12em;
+    height: 9em;
+    border-radius: 0em;
+padding: 1em;
+background-color: #FBF5F5;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-width: .1em;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+#text1{
+text-align: center;
+
+}
+#color1{
+background-color: #F0CCDD;
+border-radius: 100em;
+height: 2em;
+width: 2em;
+display:inline-block;
+margin-left: 2.5em;
+position: relative;
+top:3em;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-width: .1em;
+}
+#color2{
+    background-color: #BDE9E5;
+    border-radius: 100em;
+    height: 2em;
+width: 2em;
+margin-left: 1em;
+display:inline-block;
+position: relative;
+top:3em;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-width: .1em;
+}
+#color3{
+    background-color: #C4BAED;
+    border-radius: 100em;
+    height: 2em;
+width: 2em;
+margin-left: 1em;
+display:inline-block;
+position: relative;
+top:3em;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-width: .1em;
+}
+#boton{
+    background-color:#D39D99;
+    padding:1em 2em 1em 2em;
+    color: black;
+    text-decoration: none;
+    border-radius: .2em;
+    position: relative;
+    left: 19%;
+    top: 5.5em;
+    box-shadow: 0em 0em 1em .5em rgba(0, 0, 0, 0.498);
+    border-style: solid;
+border-color: rgb(0, 0, 0);
+border-width: .1em;
+transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+}
+#boton:hover{
+    background-color: #BF7774 ;
+    color: #ffffff;
+}
+/* #endregion 1 */
+
+/* #region 2 */
+
+#b{
+    position: relative;
+    left: 45.5em;
+    top: -145em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img2{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+    #color1{
+    background-color: #F0CCDD;
+    border-radius: 100em;
+    height: 2em;
+    width: 2em;
+    display:inline-block;
+    margin-left: 2.5em;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color2{
+        background-color: #BDE9E5;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color3{
+        background-color: #C4BAED;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #boton{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 5.5em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 2 */
+
+/* #region 3 */
+#c{
+    position: relative;
+    left: 65em;
+    top: -170em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img3{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+    #color4{
+    background-color: #66C9FF;
+    border-radius: 100em;
+    height: 2em;
+    width: 2em;
+    display:inline-block;
+    margin-left: 2.5em;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color5{
+        background-color: #839E75;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color6{
+        background-color: #9867B2;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #boton{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 5.5em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 3 */
+
+/* #region 4 */
+#d{
+    position: relative;
+    left: 26em;
+    top: -164.5em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img4{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+    #color1{
+    background-color: #F0CCDD;
+    border-radius: 100em;
+    height: 2em;
+    width: 2em;
+    display:inline-block;
+    margin-left: 2.5em;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color2{
+        background-color: #BDE9E5;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color3{
+        background-color: #C4BAED;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #boton{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 5.5em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 4 */
+
+/* #region 5 */
+#e{
+    position: relative;
+    left: 45.5em;
+    top: -189.5em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img5{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+    #color1{
+    background-color: #F0CCDD;
+    border-radius: 100em;
+    height: 2em;
+    width: 2em;
+    display:inline-block;
+    margin-left: 2.5em;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color2{
+        background-color: #BDE9E5;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color3{
+        background-color: #C4BAED;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #boton{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 5.5em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 5 */
+
+/* #region 6 */
+#f{
+    position: relative;
+    left: 65em;
+    top: -214.5em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img6{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+    #color4{
+        background-color: #66C9FF;
+        border-radius: 100em;
+        height: 2em;
+        width: 2em;
+        display:inline-block;
+        margin-left: 2.5em;
+        position: relative;
+        top:3em;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-width: .1em;
+        }
+        #color5{
+            background-color: #839E75;
+            border-radius: 100em;
+            height: 2em;
+        width: 2em;
+        margin-left: 1em;
+        display:inline-block;
+        position: relative;
+        top:3em;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-width: .1em;
+        }
+        #color6{
+            background-color: #9867B2;
+            border-radius: 100em;
+            height: 2em;
+        width: 2em;
+        margin-left: 1em;
+        display:inline-block;
+        position: relative;
+        top:3em;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-width: .1em;
+        }
+    #boton{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 5.5em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 6 */
+
+/* #region 7 */
+#g{
+    position: relative;
+    left: 26em;
+    top: -210em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img7{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+    #color1{
+    background-color: #F0CCDD;
+    border-radius: 100em;
+    height: 2em;
+    width: 2em;
+    display:inline-block;
+    margin-left: 2.5em;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color2{
+        background-color: #BDE9E5;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color3{
+        background-color: #C4BAED;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #boton{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 5.5em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 7 */
+
+/* #region 8 */
+#h{
+    position: relative;
+    left: 45.5em;
+    top: -235em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img8{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+    #color1{
+    background-color: #F0CCDD;
+    border-radius: 100em;
+    height: 2em;
+    width: 2em;
+    display:inline-block;
+    margin-left: 2.5em;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color2{
+        background-color: #BDE9E5;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #color3{
+        background-color: #C4BAED;
+        border-radius: 100em;
+        height: 2em;
+    width: 2em;
+    margin-left: 1em;
+    display:inline-block;
+    position: relative;
+    top:3em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    }
+    #boton{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 5.5em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 8 */
+
+/* #region 9 */
+#i{
+    position: relative;
+    left: 45.5em;
+    top: -230em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img9{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+    #boton2{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 5.5em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton2:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 9 */
+
+/* #region 10 */
+#j{
+    position: relative;
+    left: 26em;
+    top: -255em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    
+    #img10{
+        width: 12em;
+        height: 9em;
+        border-radius: 0em;
+    padding: 1em;
+    background-color: #FBF5F5;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    
+    #text1{
+    text-align: center;
+    
+    }
+
+    #boton2{
+        background-color:#D39D99;
+        padding:1em 2em 1em 2em;
+        color: black;
+        text-decoration: none;
+        border-radius: .2em;
+        position: relative;
+        left: 19%;
+        top: 7.6em;
+        box-shadow: 0em 0em .5em .2em rgba(0, 0, 0, 0.498);
+        border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .1em;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) .3s;
+    }
+    #boton2:hover{
+        background-color: #BF7774 ;
+        color: #ffffff;
+    }
+/* #endregion 10 */
+
+@keyframes inicio {
+    from{
+        transition: all ease 1s;
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+/* #region 400px */
+@media screen and (max-width: 400px) {
+
+    #inicio{
+        position: absolute;
+        padding-top: .5em;
+margin-left: -3em;
+    font-size: 1em;
+    }
+    #productos{
+        position: absolute;
+        padding-top: .5em;
+        margin-left: -4em;
+    font-size: 1em;
+    }
+
+#fondocat{
+    transform: translateX(-1.5em);
+    }
+    #a{
+        position: relative;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        width: 14em;
+        height: 25em;
+        background-color: #FBF5F5;
+        border-radius: .3em;
+        border-width: .1em;
+        font-family: "Julius Sans One", sans-serif;
+        animation-name: inicio;
+        animation-duration: 2s;
+}
+#b{
+        position: relative;
+        transform: translateX(-1.5em);
+        top: -335em;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        width: 14em;
+        height: 25em;
+        background-color: #FBF5F5;
+        border-radius: .3em;
+        border-width: .1em;
+        font-family: "Julius Sans One", sans-serif;
+        animation-name: inicio;
+        animation-duration: 2s;
+}
+        #c{
+            position: relative;
+            transform: translateX(-1.5em);
+            top: -330em;
+            border-style: solid;
+            border-color: rgb(0, 0, 0);
+            width: 14em;
+            height: 25em;
+            background-color: #FBF5F5;
+            border-radius: .3em;
+            border-width: .1em;
+            font-family: "Julius Sans One", sans-serif;
+            animation-name: inicio;
+            animation-duration: 2s;
+            }
+            #d{
+                position: relative;
+                transform: translateX(-1.5em);
+                top: -325em;
+                border-style: solid;
+                border-color: rgb(0, 0, 0);
+                width: 14em;
+                height: 25em;
+                background-color: #FBF5F5;
+                border-radius: .3em;
+                border-width: .1em;
+                font-family: "Julius Sans One", sans-serif;
+                animation-name: inicio;
+                animation-duration: 2s;
+                }
+            #e{
+                position: relative;
+                transform: translateX(-1.5em);
+                top: -320em;
+                border-style: solid;
+                border-color: rgb(0, 0, 0);
+                width: 14em;
+                height: 25em;
+                background-color: #FBF5F5;
+                border-radius: .3em;
+                border-width: .1em;
+                font-family: "Julius Sans One", sans-serif;
+                animation-name: inicio;
+                animation-duration: 2s;
+                }
+                #f{
+                    position: relative;
+                    transform: translateX(-1.5em);
+                    top: -315em;
+                    border-style: solid;
+                    border-color: rgb(0, 0, 0);
+                    width: 14em;
+                    height: 25em;
+                    background-color: #FBF5F5;
+                    border-radius: .3em;
+                    border-width: .1em;
+                    font-family: "Julius Sans One", sans-serif;
+                    animation-name: inicio;
+                    animation-duration: 2s;
+                    }
+                    #g{
+                        position: relative;
+                        transform: translateX(-1.5em);
+                        top: -310em;
+                        border-style: solid;
+                        border-color: rgb(0, 0, 0);
+                        width: 14em;
+                        height: 25em;
+                        background-color: #FBF5F5;
+                        border-radius: .3em;
+                        border-width: .1em;
+                        font-family: "Julius Sans One", sans-serif;
+                        animation-name: inicio;
+                        animation-duration: 2s;
+                        }
+                    #h{
+                        position: relative;
+                        transform: translateX(-1.5em);
+                        top: -305em;
+                        border-style: solid;
+                        border-color: rgb(0, 0, 0);
+                        width: 14em;
+                        height: 25em;
+                        background-color: #FBF5F5;
+                        border-radius: .3em;
+                        border-width: .1em;
+                        font-family: "Julius Sans One", sans-serif;
+                        animation-name: inicio;
+                        animation-duration: 2s;
+                        }
+                        #i{
+                            position: relative;
+                            transform: translateX(-1.5em);
+                            top: -300em;
+                            border-style: solid;
+                            border-color: rgb(0, 0, 0);
+                            width: 14em;
+                            height: 25em;
+                            background-color: #FBF5F5;
+                            border-radius: .3em;
+                            border-width: .1em;
+                            font-family: "Julius Sans One", sans-serif;
+                            animation-name: inicio;
+                            animation-duration: 2s;
+                            }
+                            #j{
+                                position: relative;
+                                transform: translateX(-1.5em);
+                                top: -295em;
+                                border-style: solid;
+                                border-color: rgb(0, 0, 0);
+                                width: 14em;
+                                height: 25em;
+                                background-color: #FBF5F5;
+                                border-radius: .3em;
+                                border-width: .1em;
+                                font-family: "Julius Sans One", sans-serif;
+                                animation-name: inicio;
+                                animation-duration: 2s;
+                                }
+                            
+}
+/* #endregion 400px */
+
+/* #region 450px */
+@media screen and (max-width: 450px) {
+
+    #fondocat{
+    position: relative;
+    left: -15em;
+    margin-left: -2em;
+    padding-right: 0em;
+    }
+    #a{
+        position: relative;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        width: 14em;
+        height: 25em;
+        background-color: #FBF5F5;
+        border-radius: .3em;
+        border-width: .1em;
+        font-family: "Julius Sans One", sans-serif;
+        animation-name: inicio;
+        animation-duration: 2s;
+        }
+    #b{
+        position: relative;
+        margin-left: -2em;
+        top: -335em;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        width: 14em;
+        height: 25em;
+        background-color: #FBF5F5;
+        border-radius: .3em;
+        border-width: .1em;
+        font-family: "Julius Sans One", sans-serif;
+        animation-name: inicio;
+        animation-duration: 2s;
+        }
+        #c{
+            position: relative;
+            margin-left: -2em;
+            top: -330em;
+            border-style: solid;
+            border-color: rgb(0, 0, 0);
+            width: 14em;
+            height: 25em;
+            background-color: #FBF5F5;
+            border-radius: .3em;
+            border-width: .1em;
+            font-family: "Julius Sans One", sans-serif;
+            animation-name: inicio;
+            animation-duration: 2s;
+            }
+            #d{
+                position: relative;
+                margin-left: -2em;
+                top: -325em;
+                border-style: solid;
+                border-color: rgb(0, 0, 0);
+                width: 14em;
+                height: 25em;
+                background-color: #FBF5F5;
+                border-radius: .3em;
+                border-width: .1em;
+                font-family: "Julius Sans One", sans-serif;
+                animation-name: inicio;
+                animation-duration: 2s;
+                }
+            #e{
+                position: relative;
+                margin-left: -2em;
+                top: -320em;
+                border-style: solid;
+                border-color: rgb(0, 0, 0);
+                width: 14em;
+                height: 25em;
+                background-color: #FBF5F5;
+                border-radius: .3em;
+                border-width: .1em;
+                font-family: "Julius Sans One", sans-serif;
+                animation-name: inicio;
+                animation-duration: 2s;
+                }
+                #f{
+                    position: relative;
+                    margin-left: -2em;
+                    top: -315em;
+                    border-style: solid;
+                    border-color: rgb(0, 0, 0);
+                    width: 14em;
+                    height: 25em;
+                    background-color: #FBF5F5;
+                    border-radius: .3em;
+                    border-width: .1em;
+                    font-family: "Julius Sans One", sans-serif;
+                    animation-name: inicio;
+                    animation-duration: 2s;
+                    }
+                    #g{
+                        position: relative;
+                        margin-left: -2em;
+                        top: -310em;
+                        border-style: solid;
+                        border-color: rgb(0, 0, 0);
+                        width: 14em;
+                        height: 25em;
+                        background-color: #FBF5F5;
+                        border-radius: .3em;
+                        border-width: .1em;
+                        font-family: "Julius Sans One", sans-serif;
+                        animation-name: inicio;
+                        animation-duration: 2s;
+                        }
+                    #h{
+                        position: relative;
+                        margin-left: -2em;
+                        top: -305em;
+                        border-style: solid;
+                        border-color: rgb(0, 0, 0);
+                        width: 14em;
+                        height: 25em;
+                        background-color: #FBF5F5;
+                        border-radius: .3em;
+                        border-width: .1em;
+                        font-family: "Julius Sans One", sans-serif;
+                        animation-name: inicio;
+                        animation-duration: 2s;
+                        }
+                        #i{
+                            position: relative;
+                            margin-left: -2em;
+                            top: -300em;
+                            border-style: solid;
+                            border-color: rgb(0, 0, 0);
+                            width: 14em;
+                            height: 25em;
+                            background-color: #FBF5F5;
+                            border-radius: .3em;
+                            border-width: .1em;
+                            font-family: "Julius Sans One", sans-serif;
+                            animation-name: inicio;
+                            animation-duration: 2s;
+                            }
+                            #j{
+                                position: relative;
+                                margin-left: -2em;
+                                top: -295em;
+                                border-style: solid;
+                                border-color: rgb(0, 0, 0);
+                                width: 14em;
+                                height: 25em;
+                                background-color: #FBF5F5;
+                                border-radius: .3em;
+                                border-width: .1em;
+                                font-family: "Julius Sans One", sans-serif;
+                                animation-name: inicio;
+                                animation-duration: 2s;
+                                }
+                            
+}
+/* #endregion 450px */
+
+/* #region 500px */
+@media screen and (max-width: 500px) {
+
+    #body{
+    margin-left:-19em;
+    }
+    
+#logo{
+    position: relative;
+    left: 18em;
+    width: 4em;
+    top: -1.5em;
+}
+
+#inicio{
+    position: absolute;
+    padding-top: .5em;
+left: 29em;
+font-size: 1em;
+}
+#productos{
+    position: absolute;
+    padding-top: .5em;
+left: 37em;
+font-size: 1em;
+}
+#barra{
+    height: 5em;
+    width: 105%;
+}
+
+    #prod{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top:6em;
+        font-size: 1.2em;
+    }
+
+#fondocat{
+    display: flex;
+    position: relative;
+    left: 23em;
+width: 21em;
+height: 350em;
+}
+#a{
+    position: relative;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+#b{
+    position: relative;
+    left: 26em;
+    top: -335em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 14em;
+    height: 25em;
+    background-color: #FBF5F5;
+    border-radius: .3em;
+    border-width: .1em;
+    font-family: "Julius Sans One", sans-serif;
+    animation-name: inicio;
+    animation-duration: 2s;
+    }
+    #c{
+        position: relative;
+        left: 26em;
+        top: -330em;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        width: 14em;
+        height: 25em;
+        background-color: #FBF5F5;
+        border-radius: .3em;
+        border-width: .1em;
+        font-family: "Julius Sans One", sans-serif;
+        animation-name: inicio;
+        animation-duration: 2s;
+        }
+        #d{
+            position: relative;
+            left: 26em;
+            top: -325em;
+            border-style: solid;
+            border-color: rgb(0, 0, 0);
+            width: 14em;
+            height: 25em;
+            background-color: #FBF5F5;
+            border-radius: .3em;
+            border-width: .1em;
+            font-family: "Julius Sans One", sans-serif;
+            animation-name: inicio;
+            animation-duration: 2s;
+            }
+        #e{
+            position: relative;
+            left: 26em;
+            top: -320em;
+            border-style: solid;
+            border-color: rgb(0, 0, 0);
+            width: 14em;
+            height: 25em;
+            background-color: #FBF5F5;
+            border-radius: .3em;
+            border-width: .1em;
+            font-family: "Julius Sans One", sans-serif;
+            animation-name: inicio;
+            animation-duration: 2s;
+            }
+            #f{
+                position: relative;
+                left: 26em;
+                top: -315em;
+                border-style: solid;
+                border-color: rgb(0, 0, 0);
+                width: 14em;
+                height: 25em;
+                background-color: #FBF5F5;
+                border-radius: .3em;
+                border-width: .1em;
+                font-family: "Julius Sans One", sans-serif;
+                animation-name: inicio;
+                animation-duration: 2s;
+                }
+                #g{
+                    position: relative;
+                    left: 26em;
+                    top: -310em;
+                    border-style: solid;
+                    border-color: rgb(0, 0, 0);
+                    width: 14em;
+                    height: 25em;
+                    background-color: #FBF5F5;
+                    border-radius: .3em;
+                    border-width: .1em;
+                    font-family: "Julius Sans One", sans-serif;
+                    animation-name: inicio;
+                    animation-duration: 2s;
+                    }
+                #h{
+                    position: relative;
+                    left: 26em;
+                    top: -305em;
+                    border-style: solid;
+                    border-color: rgb(0, 0, 0);
+                    width: 14em;
+                    height: 25em;
+                    background-color: #FBF5F5;
+                    border-radius: .3em;
+                    border-width: .1em;
+                    font-family: "Julius Sans One", sans-serif;
+                    animation-name: inicio;
+                    animation-duration: 2s;
+                    }
+                    #i{
+                        position: relative;
+                        left: 26em;
+                        top: -300em;
+                        border-style: solid;
+                        border-color: rgb(0, 0, 0);
+                        width: 14em;
+                        height: 25em;
+                        background-color: #FBF5F5;
+                        border-radius: .3em;
+                        border-width: .1em;
+                        font-family: "Julius Sans One", sans-serif;
+                        animation-name: inicio;
+                        animation-duration: 2s;
+                        }
+                        #j{
+                            position: relative;
+                            left: 26em;
+                            top: -295em;
+                            border-style: solid;
+                            border-color: rgb(0, 0, 0);
+                            width: 14em;
+                            height: 25em;
+                            background-color: #FBF5F5;
+                            border-radius: .3em;
+                            border-width: .1em;
+                            font-family: "Julius Sans One", sans-serif;
+                            animation-name: inicio;
+                            animation-duration: 2s;
+                            }
+                        }
+/* #endregion 500px */
+

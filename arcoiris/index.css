@@ -1,0 +1,354 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#logo{
+    width: 5em;
+    margin-top: 2em;
+    margin-left: 0em;
+    animation-name: inicio;
+    animation-duration: 2s;
+    border-radius: 100%;
+    box-shadow: 0em 0em .5em .1em black;
+}
+
+#inicio{
+    color:#371A1C ;
+    position: absolute;
+    left: 48em;
+    top: 2em;
+    list-style: none;
+    letter-spacing: .4em;
+font-size: 1.7em;
+font-family: "Josefin Slab";
+animation-name: inicio;
+animation-duration: 2s;
+}
+#productos{
+    color: white;
+    position: absolute;
+    left: 57em;
+    top: 2em;
+    list-style: none;
+    font-size: 1.7em;
+    letter-spacing: .4em;
+    font-family: "Josefin Slab";
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1)1s;
+    animation-name: inicio;
+    animation-duration: 2s;
+}
+#productos:hover{
+    color:#371A1C  ;
+}
+
+#barra{
+    background-color:#D39D99 ;
+    width:101.3% ;
+    position: relative;
+    top: -1em;
+    left: -1em;
+    height:9.5em;
+}
+
+#panelizq{
+    margin-top: -2.5em;
+    margin-left: -.5em;
+    background-color: #E3C1BE;
+    height: 100%;
+    width:100.9% ;
+    position: relative;
+
+}
+
+#panelder{
+    position: relative;
+    left: 15em;
+    background-color: #F0DDDB;
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 30% 100%);
+    height: 53em;
+    width: 100em;
+    animation-name: fondo;
+    animation-duration: 2s;
+}
+
+#titulo{
+    color: white;
+    position: absolute;
+    top: .9em;
+    left: 0.9em;
+    letter-spacing: .6em;
+    text-shadow: .2em .1em .1em rgba(0, 0, 0, 0.602);
+    font-family: "Josefin Sans";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+        font-size: 8em;
+        animation-name: inicio;
+        animation-duration: 2s;
+}
+
+#subtitulo{
+    color: #371A1C;
+    position: relative;
+    top: -22em;
+    left: 6em;
+    font-size: large;
+    line-height: 1.5em;
+    font-family: "Josefin Slab";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.3em;
+    animation-name: inicio;
+    animation-duration: 2s;
+}
+#redes{
+    color: #371A1C;
+    position: relative;
+    top: -23em;
+    left: 6.5em;
+    font-size: large;
+    border-radius: 1em;
+    border-color: black;
+    border-style: solid;
+    padding: 1em;
+    width: 15em;
+    text-align: center;
+    background-color: #F0DDDB;
+    box-shadow: .5em .5em .3em .1em rgba(0, 0, 0, 0.501);
+    border-width: .15em;
+    font-family: "Josefin Sans";
+    animation-name: inicio;
+    animation-duration: 2s;
+}
+#red1{
+    position: relative;
+    top: -23.5em;
+    left: 10em;
+    border-radius: 1.2em;
+    border-color: black;
+    border-style: solid;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    width: 5em;
+    height: 3em;
+    text-align: center;
+    background-color: #F0DDDB;
+    box-shadow: .5em .5em .3em .1em rgba(0, 0, 0, 0.507);
+    border-width: .15em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1)1s;
+    animation-name: inicio;
+    animation-duration: 2s;
+}
+#red1:active{
+    position: relative;
+    top: -22.5em;
+    left: 10.5em;
+    box-shadow: none;
+}
+#red2{
+    position: relative;
+    top: -23.5em;
+    left: 13em;
+    border-radius: 1.2em;
+    border-color: black;
+    border-style: solid;
+    padding: .5em;
+    width: 5em;
+    height: 3em;
+    text-align: center;
+    background-color: #F0DDDB;
+    box-shadow: .5em .5em .3em .1em rgba(0, 0, 0, 0.518);
+    border-width: .15em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1)1s;
+    animation-name: inicio;
+    animation-duration: 2s;
+}
+#red2:active{
+    position: relative;
+    top: -22.5em;
+    left: 13.5em;
+    box-shadow: none;
+}
+#imginicio1{
+position: relative;
+top: -60em;
+height: 18em;
+left: 80em;
+animation-name: inicio;
+animation-duration: 6s;
+}
+#imginicio2{
+    position: relative;
+    top: -50em;
+    left: 35em;
+    height: 18em;
+    animation-name: inicio;
+    animation-duration: 5s;
+}
+#imginicio3{
+    position: relative;
+    top: -40em;
+    left: 25em;
+    height: 14em;
+    animation-name: inicio;
+    animation-duration: 4s;
+}
+
+@keyframes inicio {
+    from{
+        transition: all ease 1s;
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+@keyframes fondo {
+    from{
+        width: 0em;
+    }
+    to{
+        width: 100em;
+    } 
+}
+
+
+
+@media screen and (max-width: 500px) {
+    body{
+    background-color: #D39D99;
+    }
+
+#logo{
+    position: relative;
+    left: -1em;
+    width: 4em;
+    top: -1.5em;
+}
+
+#inicio{
+    position: absolute;
+left: 10em;
+font-size: 1em;
+top: 2.5em;
+}
+#productos{
+    position: absolute;
+left: 18em;
+font-size: 1em;
+top: 2.5em;
+}
+#barra{
+    height: 6em;
+    width: 107%;
+    padding-bottom: .5em;
+}
+#panelizq{
+    position: relative;
+    width: 25em;
+}
+#panelder{
+    position: relative;
+    width: 17em;
+    left: 14em;
+    animation: none;
+    height: 51em;
+padding-bottom: 6em;
+}
+#titulo{
+    font-size: 4em;
+    margin-top: .5em;
+margin-left: -.4em;
+line-height: 1.3em;
+}
+#subtitulo{
+    font-size: 1.1em;
+    position: relative;
+    left: 2em;
+    top: -31em;
+}
+#redes{
+    position: relative;
+    left: 2em;
+    top: -25em;
+}
+
+#red1{
+    position: relative;
+    left: 5em;
+    top: -27em;
+}
+
+#red2{
+    position: relative;
+    left: 9em;
+    top: -27em;
+}
+#imginicio1{
+display: none;
+}
+#imginicio2{
+    display: none;
+}
+#imginicio3{
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+
+#inicio{
+    position: absolute;
+left: 7em;
+font-size: 1em;
+top: 2.5em;
+}
+#productos{
+    position: absolute;
+left: 14em;
+font-size: 1em;
+top: 2.5em;
+}
+#titulo{
+    font-size: 3.5em;
+    margin-top: .5em;
+margin-left: -.4em;
+line-height: 1.3em;
+}
+#subtitulo{
+    position: relative;
+    top: -27em;
+}
+
+#barra{
+    height: 6em;
+    width: 107%;
+    padding-bottom: .5em;
+}
+#panelizq{
+    width: 22em;
+    animation: none;
+    height: 37em;
+padding-bottom: 9em;
+}
+#panelder{
+    position: relative;
+    left: 9em;
+    height: 40em;
+    width: 20em;
+}
+#imageninicio1{
+    width: none;
+    height: none;
+}
+#imageninicio2{
+    width: none;
+    height: none;
+}
+#imageninicio3{
+    width: none;
+    height: none;
+}
+}
